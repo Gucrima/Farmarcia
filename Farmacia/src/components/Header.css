@@ -1,37 +1,38 @@
 .navbar-Header{
     display: flex;
+    flex-direction: row;
     background-color: #e23e57;
-    top: 0;
-    left: 0;
-    position: fixed;
+    justify-content: space-between;
+    height: 78%;
     width: 100%;
-    justify-content: space-evenly;
+    padding: 4px;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: stretch;
 
 }
 
-.imagem-logo{
-    align-items: center;
-    margin-right: 20%;
-}
-
-.imagem-logo:hover{
-    transform: scale(1.05);
-    transition: 0.05s;
-}
 
 .Logo-navbar{
     display: flex;
-    padding: 8px;
+    flex-direction: row;
+    padding: 9px;
+    width: 35%;
+}
+
+.conteiner-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #e23e57;
+    width: 100%;
+    height: 74%;
+}
+
+.logo-footer{
+    display: flex;
+    padding: 9px;
     border-radius: 100%;
-    width: 50%;
+    width: 4%;
 }
-
-.Botao-navbar{
-    font-size: 22px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 30px;
-    margin-right: 14%;
-    
-}
-
-

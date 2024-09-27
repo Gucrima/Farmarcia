@@ -1,0 +1,16 @@
+.ola-conteiner{
+    color: #ce1f3a;
+    margin-left: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo-home{
+    width: 20%;
+    
+}
+
+.conteiner-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

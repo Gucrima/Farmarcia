@@ -8,5 +8,34 @@
 }
 
 body{
-  background-color: #ef97a4;
+  background-color: #ffffff;
 }
+
+.conteiner-botoes{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 87%;
+}
+
+.Botao-navbar{
+  
+  align-items: center;
+  width: 10%;
+  height: 40%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 0;
+  color: #e23e57;
+}
+
+.Botao-navbar:hover{
+  transform: scale(1.05);
+  transition: 0.05s;
+  cursor: pointer;
+}
+
+.conteiner-pagina{
+  min-height: calc(94vh - 148px);
+}
+
