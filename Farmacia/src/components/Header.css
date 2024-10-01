@@ -1,23 +1,39 @@
 .navbar-Header{
-    display: flex;
-    flex-direction: row;
     background-color: #e23e57;
-    justify-content: space-between;
-    height: 78%;
-    width: 100%;
-    padding: 4px;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: stretch;
-
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+
+.navbar-Header ul {
+    list-style: none; /* remove bullet points */
+    margin: 0; /* remove margin */
+    padding: 0; /* remove padding */
+    display: flex; /* make ul a flex container */
+  }
+
+  .navbar-Header li {
+    margin-right: 20px; /* add some space between items */
+  }
+
+  .navbar-Header button {
+    color: #e23e57; /* text color of links */
+    text-decoration: none; /* remove underline */
+    transition: color 0.2s ease; /* add transition effect */
+  }
+  
+  .navbar-Header button:hover {
+    color: #ccc; /* change text color on hover */
+  }
 
 
 .Logo-navbar{
-    display: flex;
-    flex-direction: row;
-    padding: 9px;
-    width: 35%;
+    width: 49%;
+    border-radius: 40px;
 }
 
 .conteiner-footer{

@@ -22,7 +22,7 @@ body{
   
   align-items: center;
   width: 10%;
-  height: 40%;
+  font-size: 20px;
   border-radius: 10px;
   background-color: #ffffff;
   border: 0;
@@ -36,6 +36,6 @@ body{
 }
 
 .conteiner-pagina{
-  min-height: calc(94vh - 148px);
+  min-height: calc(92vh - 148px);
 }
 

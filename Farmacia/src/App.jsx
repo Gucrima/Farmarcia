@@ -32,7 +32,12 @@ function App() {
 
       <div className='conteiner-pagina'>
        {pagina}
+       
+       
       </div>
+
+
+      
 
      <Informacoes/>
     </>
