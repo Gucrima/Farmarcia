@@ -6,7 +6,7 @@ const Carousel = () => {
   const [items, setItems] = useState([
     { id: 1, image: './public/images/farmarcia-cartoes.PNG.png' },
     { id: 2, image: './public/images/farmarcia-camisetas.PNG.png' },
-    { id: 3, image: './public/images/farmarcia-placa.PNG.png' },
+    { id: 3, image: './public/images/farmarcia-camiseta.PNG.png' },
   ]);
 
   const handleNext = () => {

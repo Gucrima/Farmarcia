@@ -15,3 +15,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+.texto-fofoca{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    font-size: 30px;
+    color: #e96a7e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Informacoes from './components/Informacoes'
 import Home from './pages/Home'
+import Senhas from './pages/Senhas'
+import Fofocas from './pages/Fofocas'
 
 
 
@@ -22,8 +24,8 @@ function App() {
     <div className='conteiner-botoes'> 
 
     <button onClick={ () => {setPagina(<Home/>)}} className='Botao-navbar'>Home</button>
-    <button  className='Botao-navbar'>Senhas</button>
-    <button  className='Botao-navbar'>Botão</button>
+    <button onClick={ () => {setPagina(<Senhas/>)}} className='Botao-navbar'>Senhas</button>
+    <button onClick={ () => {setPagina(<Fofocas/>)}} className='Botao-navbar'>Fofocas</button>
     <button  className='Botao-navbar'>Botão 2 </button>
   
     </div>

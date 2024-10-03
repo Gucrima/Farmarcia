@@ -1,0 +1,66 @@
+.conteiner-balcao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    margin-left: 40%;
+}
+
+.letras-balcao{
+    color: #ce1f3a;
+    margin-left: 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.conteiner-botoes-balcoa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1%;
+    width: 10%;
+    margin-left: 45%;
+    padding: 1px;
+
+}
+
+.botoes-senha{
+   padding: 12px;
+   border-radius: 10px;
+   font-size: 19px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.botoes-senha {
+    color: #e23e57; /* text color of links */
+    background-color: #e6e6e6;
+    text-decoration: none; /* remove underline */
+    transition: color 0.2s ease; /* add transition effect */
+    border: 0;
+  }
+  
+  .botoes-senha:hover {
+    color: #ccc; /* change text color on hover */
+  }
+
+  .conteiner-input-balcoa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    margin-left: 43%;
+    padding: 1px;
+  }
+
+  .texto-senhas{
+    color: #e23e57;
+  }
+
+  .input-senha{
+    border-radius: 10px;
+    background-color: #ccc;
+    border: 0;
+  }
+
+  .conteiner{
+    margin-top: 2%;
+  }
